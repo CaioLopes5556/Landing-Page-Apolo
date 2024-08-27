@@ -22,7 +22,7 @@ const showLocal = document.querySelector('#show-local')
 
 // muda os locais no span quando são selecionados no select
 
-Select.addEventListener('click',() => {
+Select.addEventListener('change',() => {
     const indice = Select.selectedIndex 
     const text = Select.options[indice].text
 
